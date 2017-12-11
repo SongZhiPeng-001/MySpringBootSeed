@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.GovUserRoleMenuOperaterMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.GovUserRoleMenuOperater">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="govermentUserId" jdbcType="INTEGER" property="govermentuserid" />
+    <result column="govermentRoleId" jdbcType="INTEGER" property="govermentroleid" />
+    <result column="baseMenuId" jdbcType="INTEGER" property="basemenuid" />
+    <result column="govermentOperater" jdbcType="VARCHAR" property="govermentoperater" />
+    <result column="nikeName" jdbcType="VARCHAR" property="nikename" />
+  </resultMap>
+</mapper>

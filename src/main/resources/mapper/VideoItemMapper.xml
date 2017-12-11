@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.VideoItemMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.VideoItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="itemId" jdbcType="VARCHAR" property="itemid" />
+    <result column="userName" jdbcType="VARCHAR" property="username" />
+    <result column="passWord" jdbcType="VARCHAR" property="password" />
+    <result column="startVideoDate" jdbcType="TIMESTAMP" property="startvideodate" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="creator" jdbcType="VARCHAR" property="creator" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="stopVideoDate" jdbcType="TIMESTAMP" property="stopvideodate" />
+    <result column="linkMan" jdbcType="VARCHAR" property="linkman" />
+    <result column="linkManTel" jdbcType="VARCHAR" property="linkmantel" />
+    <result column="itemIp" jdbcType="VARCHAR" property="itemip" />
+    <result column="itemPort" jdbcType="VARCHAR" property="itemport" />
+    <result column="version" jdbcType="VARCHAR" property="version" />
+    <result column="projectId" jdbcType="INTEGER" property="projectid" />
+    <result column="tendersId" jdbcType="INTEGER" property="tendersid" />
+  </resultMap>
+</mapper>

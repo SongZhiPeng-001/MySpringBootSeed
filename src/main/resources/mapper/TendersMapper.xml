@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TendersMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Tenders">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="tenderName" jdbcType="VARCHAR" property="tendername" />
+    <result column="projectId" jdbcType="INTEGER" property="projectid" />
+    <result column="reportNumber" jdbcType="VARCHAR" property="reportnumber" />
+    <result column="tendersAdress" jdbcType="VARCHAR" property="tendersadress" />
+    <result column="tenderscityId" jdbcType="INTEGER" property="tenderscityid" />
+    <result column="tendersareaId" jdbcType="INTEGER" property="tendersareaid" />
+    <result column="buildAcreage" jdbcType="VARCHAR" property="buildacreage" />
+    <result column="tendersStage" jdbcType="VARCHAR" property="tendersstage" />
+    <result column="tendersType" jdbcType="INTEGER" property="tenderstype" />
+    <result column="structureType" jdbcType="INTEGER" property="structuretype" />
+    <result column="tendersMoney" jdbcType="VARCHAR" property="tendersmoney" />
+    <result column="upFloor" jdbcType="INTEGER" property="upfloor" />
+    <result column="downFloor" jdbcType="INTEGER" property="downfloor" />
+    <result column="buildNature" jdbcType="INTEGER" property="buildnature" />
+    <result column="buildType" jdbcType="INTEGER" property="buildtype" />
+    <result column="ditchHigh" jdbcType="VARCHAR" property="ditchhigh" />
+    <result column="buildProjectNumber" jdbcType="VARCHAR" property="buildprojectnumber" />
+    <result column="acceptanceNumber" jdbcType="VARCHAR" property="acceptancenumber" />
+    <result column="safeNumber" jdbcType="VARCHAR" property="safenumber" />
+    <result column="safeDate" jdbcType="TIMESTAMP" property="safedate" />
+    <result column="allowBuildNumber" jdbcType="VARCHAR" property="allowbuildnumber" />
+    <result column="peopleDefenceArea" jdbcType="VARCHAR" property="peopledefencearea" />
+    <result column="floorHigh" jdbcType="VARCHAR" property="floorhigh" />
+    <result column="contractCost" jdbcType="VARCHAR" property="contractcost" />
+    <result column="realityMoney" jdbcType="VARCHAR" property="realitymoney" />
+    <result column="baseType" jdbcType="VARCHAR" property="basetype" />
+    <result column="startTime" jdbcType="TIMESTAMP" property="starttime" />
+    <result column="endTime" jdbcType="TIMESTAMP" property="endtime" />
+    <result column="scoutCompanyId" jdbcType="INTEGER" property="scoutcompanyid" />
+    <result column="designCompanyId" jdbcType="INTEGER" property="designcompanyid" />
+    <result column="supervisionCompanyId" jdbcType="INTEGER" property="supervisioncompanyid" />
+    <result column="constructionCompanyId" jdbcType="INTEGER" property="constructioncompanyid" />
+    <result column="detectionCompanyId" jdbcType="INTEGER" property="detectioncompanyid" />
+    <result column="buildingCompanyId" jdbcType="INTEGER" property="buildingcompanyid" />
+    <result column="serviceCompanyId" jdbcType="INTEGER" property="servicecompanyid" />
+    <result column="bankAccount" jdbcType="VARCHAR" property="bankaccount" />
+  </resultMap>
+</mapper>

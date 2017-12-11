@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.CompanyUserMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.CompanyUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="userName" jdbcType="VARCHAR" property="username" />
+    <result column="passWord" jdbcType="VARCHAR" property="password" />
+    <result column="companyName" jdbcType="VARCHAR" property="companyname" />
+    <result column="companyTypeId" jdbcType="INTEGER" property="companytypeid" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="newProjectApprove" jdbcType="INTEGER" property="newprojectapprove" />
+    <result column="companyAdress" jdbcType="VARCHAR" property="companyadress" />
+    <result column="companyLinkMobile" jdbcType="VARCHAR" property="companylinkmobile" />
+    <result column="companySafeAllow" jdbcType="VARCHAR" property="companysafeallow" />
+    <result column="companyLegalPeson" jdbcType="VARCHAR" property="companylegalpeson" />
+    <result column="legalPesonTel" jdbcType="VARCHAR" property="legalpesontel" />
+    <result column="socialCode" jdbcType="VARCHAR" property="socialcode" />
+    <result column="companyPropertyId" jdbcType="INTEGER" property="companypropertyid" />
+    <result column="businessNumber" jdbcType="VARCHAR" property="businessnumber" />
+    <result column="companyEmail" jdbcType="VARCHAR" property="companyemail" />
+    <result column="registeredCapital" jdbcType="VARCHAR" property="registeredcapital" />
+    <result column="bankName" jdbcType="VARCHAR" property="bankname" />
+    <result column="bankCode" jdbcType="VARCHAR" property="bankcode" />
+    <result column="qualificationNumber" jdbcType="VARCHAR" property="qualificationnumber" />
+    <result column="companyQualificationId" jdbcType="INTEGER" property="companyqualificationid" />
+    <result column="companyId" jdbcType="INTEGER" property="companyid" />
+    <result column="tendersId" jdbcType="VARCHAR" property="tendersid" />
+  </resultMap>
+</mapper>

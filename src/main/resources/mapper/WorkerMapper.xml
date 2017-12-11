@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.WorkerMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Worker">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="personCard" jdbcType="VARCHAR" property="personcard" />
+    <result column="nation" jdbcType="VARCHAR" property="nation" />
+    <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
+    <result column="marriageStatus" jdbcType="INTEGER" property="marriagestatus" />
+    <result column="originPlace" jdbcType="VARCHAR" property="originplace" />
+    <result column="selfMobile" jdbcType="VARCHAR" property="selfmobile" />
+    <result column="educationStatus" jdbcType="INTEGER" property="educationstatus" />
+    <result column="urgentLinkMan" jdbcType="VARCHAR" property="urgentlinkman" />
+    <result column="urgentLinkInfo" jdbcType="VARCHAR" property="urgentlinkinfo" />
+    <result column="cardUpImageId" jdbcType="INTEGER" property="cardupimageid" />
+    <result column="cardBackImageId" jdbcType="INTEGER" property="cardbackimageid" />
+    <result column="sceneImageId" jdbcType="INTEGER" property="sceneimageid" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="createUser" jdbcType="INTEGER" property="createuser" />
+    <result column="healthStatus" jdbcType="INTEGER" property="healthstatus" />
+    <result column="authority" jdbcType="VARCHAR" property="authority" />
+    <result column="latestAddress" jdbcType="VARCHAR" property="latestaddress" />
+    <result column="blackListId" jdbcType="INTEGER" property="blacklistid" />
+    <result column="startPersonCard" jdbcType="TIMESTAMP" property="startpersoncard" />
+    <result column="endPersonCard" jdbcType="TIMESTAMP" property="endpersoncard" />
+    <result column="bigCardImageId" jdbcType="INTEGER" property="bigcardimageid" />
+  </resultMap>
+</mapper>

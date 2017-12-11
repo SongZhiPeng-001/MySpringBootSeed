@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.WorkerWorkInfoMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.WorkerWorkInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="workerId" jdbcType="INTEGER" property="workerid" />
+    <result column="workNo" jdbcType="VARCHAR" property="workno" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="workerTypeId" jdbcType="INTEGER" property="workertypeid" />
+    <result column="attendanceCode" jdbcType="VARCHAR" property="attendancecode" />
+    <result column="branchId" jdbcType="INTEGER" property="branchid" />
+    <result column="departmentId" jdbcType="INTEGER" property="departmentid" />
+    <result column="bankImageIds" jdbcType="VARCHAR" property="bankimageids" />
+    <result column="contractImageId" jdbcType="INTEGER" property="contractimageid" />
+    <result column="bankCode" jdbcType="VARCHAR" property="bankcode" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="createUser" jdbcType="INTEGER" property="createuser" />
+    <result column="safeStatusId" jdbcType="VARCHAR" property="safestatusid" />
+    <result column="projectId" jdbcType="INTEGER" property="projectid" />
+    <result column="position" jdbcType="VARCHAR" property="position" />
+    <result column="workRole" jdbcType="VARCHAR" property="workrole" />
+    <result column="personComment" jdbcType="VARCHAR" property="personcomment" />
+    <result column="effectiveData" jdbcType="TIMESTAMP" property="effectivedata" />
+    <result column="materialDistribution" jdbcType="VARCHAR" property="materialdistribution" />
+    <result column="qrCodeId" jdbcType="INTEGER" property="qrcodeid" />
+    <result column="wagesRuleId" jdbcType="INTEGER" property="wagesruleid" />
+    <result column="safeYesOrNo" jdbcType="INTEGER" property="safeyesorno" />
+    <result column="subcontractorsNumbers" jdbcType="INTEGER" property="subcontractorsnumbers" />
+    <result column="subcontractorsTotal" jdbcType="VARCHAR" property="subcontractorstotal" />
+    <result column="finishDate" jdbcType="TIMESTAMP" property="finishdate" />
+  </resultMap>
+</mapper>

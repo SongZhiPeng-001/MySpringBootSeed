@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.DepartmentGroupMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.DepartmentGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="parentId" jdbcType="INTEGER" property="parentid" />
+    <result column="tendersId" jdbcType="INTEGER" property="tendersid" />
+    <result column="projectId" jdbcType="INTEGER" property="projectid" />
+    <result column="workerId" jdbcType="INTEGER" property="workerid" />
+  </resultMap>
+</mapper>

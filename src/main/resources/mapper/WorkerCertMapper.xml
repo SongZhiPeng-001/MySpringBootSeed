@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.WorkerCertMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.WorkerCert">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="workerId" jdbcType="INTEGER" property="workerid" />
+    <result column="certCode" jdbcType="VARCHAR" property="certcode" />
+    <result column="certName" jdbcType="VARCHAR" property="certname" />
+    <result column="signDepartment" jdbcType="VARCHAR" property="signdepartment" />
+    <result column="effectTime" jdbcType="TIMESTAMP" property="effecttime" />
+    <result column="signTime" jdbcType="TIMESTAMP" property="signtime" />
+    <result column="certImageId" jdbcType="INTEGER" property="certimageid" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="createUser" jdbcType="INTEGER" property="createuser" />
+    <result column="certType" jdbcType="INTEGER" property="certtype" />
+  </resultMap>
+</mapper>

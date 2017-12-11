@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.UploadFileMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.UploadFile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="fileUrl" jdbcType="VARCHAR" property="fileurl" />
+    <result column="fileName" jdbcType="VARCHAR" property="filename" />
+    <result column="fileType" jdbcType="VARCHAR" property="filetype" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="uploadTime" jdbcType="TIMESTAMP" property="uploadtime" />
+  </resultMap>
+</mapper>

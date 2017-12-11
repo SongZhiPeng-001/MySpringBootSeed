@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.SupplierMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Supplier">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="verifyCode" jdbcType="VARCHAR" property="verifycode" />
+    <result column="verifyDate" jdbcType="TIMESTAMP" property="verifydate" />
+    <result column="linkMan" jdbcType="VARCHAR" property="linkman" />
+    <result column="linkMobile" jdbcType="VARCHAR" property="linkmobile" />
+    <result column="createUser" jdbcType="INTEGER" property="createuser" />
+    <result column="createDate" jdbcType="TIMESTAMP" property="createdate" />
+    <result column="parentId" jdbcType="INTEGER" property="parentid" />
+    <result column="isDeleted" jdbcType="INTEGER" property="isdeleted" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="lowerEquipmentId" jdbcType="INTEGER" property="lowerequipmentid" />
+  </resultMap>
+</mapper>

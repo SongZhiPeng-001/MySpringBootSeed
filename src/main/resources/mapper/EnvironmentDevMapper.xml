@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.EnvironmentDevMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.EnvironmentDev">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="deviceId" jdbcType="VARCHAR" property="deviceid" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="isClosed" jdbcType="INTEGER" property="isclosed" />
+    <result column="showName" jdbcType="VARCHAR" property="showname" />
+    <result column="deviceName" jdbcType="VARCHAR" property="devicename" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="lng" jdbcType="VARCHAR" property="lng" />
+    <result column="lat" jdbcType="VARCHAR" property="lat" />
+    <result column="remarksOne" jdbcType="VARCHAR" property="remarksone" />
+    <result column="remarksTwo" jdbcType="VARCHAR" property="remarkstwo" />
+    <result column="noiseK" jdbcType="VARCHAR" property="noisek" />
+    <result column="noiseB" jdbcType="VARCHAR" property="noiseb" />
+    <result column="dustK" jdbcType="VARCHAR" property="dustk" />
+    <result column="dustB" jdbcType="VARCHAR" property="dustb" />
+    <result column="windspeedK" jdbcType="VARCHAR" property="windspeedk" />
+    <result column="windspeedB" jdbcType="VARCHAR" property="windspeedb" />
+    <result column="windDirectionK" jdbcType="VARCHAR" property="winddirectionk" />
+    <result column="windDirectionB" jdbcType="VARCHAR" property="winddirectionb" />
+    <result column="temperatureK" jdbcType="VARCHAR" property="temperaturek" />
+    <result column="temperatureB" jdbcType="VARCHAR" property="temperatureb" />
+    <result column="humidityK" jdbcType="VARCHAR" property="humidityk" />
+    <result column="humidityB" jdbcType="VARCHAR" property="humidityb" />
+    <result column="airpressureK" jdbcType="VARCHAR" property="airpressurek" />
+    <result column="airpressureB" jdbcType="VARCHAR" property="airpressureb" />
+    <result column="voltageK" jdbcType="VARCHAR" property="voltagek" />
+    <result column="voltageB" jdbcType="VARCHAR" property="voltageb" />
+    <result column="serialNumber" jdbcType="VARCHAR" property="serialnumber" />
+    <result column="supplierId" jdbcType="INTEGER" property="supplierid" />
+  </resultMap>
+</mapper>

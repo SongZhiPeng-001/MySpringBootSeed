@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.CompanyQualificationMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.CompanyQualification">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="qualificationSequence" jdbcType="INTEGER" property="qualificationsequence" />
+    <result column="qualificationCategoryId" jdbcType="INTEGER" property="qualificationcategoryid" />
+    <result column="qualificationMain" jdbcType="INTEGER" property="qualificationmain" />
+    <result column="qualificationLevel" jdbcType="INTEGER" property="qualificationlevel" />
+    <result column="qualificationApprovalTime" jdbcType="TIMESTAMP" property="qualificationapprovaltime" />
+  </resultMap>
+</mapper>

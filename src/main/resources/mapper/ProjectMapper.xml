@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.ProjectMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Project">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="projectName" jdbcType="VARCHAR" property="projectname" />
+    <result column="projectNo" jdbcType="VARCHAR" property="projectno" />
+    <result column="budget" jdbcType="VARCHAR" property="budget" />
+    <result column="buildDepartment" jdbcType="VARCHAR" property="builddepartment" />
+    <result column="enterpriseId" jdbcType="INTEGER" property="enterpriseid" />
+    <result column="superviseDepartment" jdbcType="VARCHAR" property="supervisedepartment" />
+    <result column="proLinkName" jdbcType="VARCHAR" property="prolinkname" />
+    <result column="proLinkInfo" jdbcType="VARCHAR" property="prolinkinfo" />
+    <result column="wagesManager" jdbcType="VARCHAR" property="wagesmanager" />
+    <result column="wagesLinkInfo" jdbcType="VARCHAR" property="wageslinkinfo" />
+    <result column="scopeId" jdbcType="INTEGER" property="scopeid" />
+    <result column="scopeType" jdbcType="INTEGER" property="scopetype" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="isStart" jdbcType="INTEGER" property="isstart" />
+    <result column="wagesBankCode" jdbcType="VARCHAR" property="wagesbankcode" />
+    <result column="contractImageId" jdbcType="VARCHAR" property="contractimageid" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="promiseFee" jdbcType="DECIMAL" property="promisefee" />
+    <result column="buildingType" jdbcType="INTEGER" property="buildingtype" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+</mapper>

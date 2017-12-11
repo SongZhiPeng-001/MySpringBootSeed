@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.WorkerAttendanceMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.WorkerAttendance">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="attendanceCode" jdbcType="VARCHAR" property="attendancecode" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="projectId" jdbcType="INTEGER" property="projectid" />
+    <result column="cardType" jdbcType="INTEGER" property="cardtype" />
+    <result column="deviceId" jdbcType="INTEGER" property="deviceid" />
+    <result column="imageId" jdbcType="INTEGER" property="imageid" />
+  </resultMap>
+</mapper>
